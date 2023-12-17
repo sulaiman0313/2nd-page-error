@@ -43,24 +43,25 @@ span{
 }
 .mid{
     background: url(bg.jpg) ,rgba(0,0,0,0.5);
-    /* background-color: rgba(0, 0, 0, 0.1); */
-    height: 86vh;
+    
+    height: 628px;
     width: 100%;
     background-position: center;
-    position: absolute;
+    
 
 }
 .top-text{
     display: flex;
     flex-direction: column;
    color: aliceblue;
-   margin-top: 150px;
+   
    justify-content: center;
    text-align: center;
     
 
 }
 .top-text h2{
+    margin-top: 150px;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Ubuntu', sans-serif;
@@ -85,7 +86,11 @@ span{
     font-size: 15px;
     font-weight: 600;
     color: white;
+    transition: all;
     
+}
+.buttons button:hover{
+    background: #43BCCD;
 }
 .buttons .btn{
     background: #43BCCD;
@@ -93,7 +98,14 @@ span{
     border: none;
     font-size: 15px;
     font-weight: bold;
+    transition: all 0.5s ease;
 }
+.buttons .btn:hover{
+    background: transparent;
+    border: 2px solid whitesmoke;
+   
+}
+
 .last{
     /* border: 4px solid white; */
     margin-top: 210px;
@@ -151,5 +163,33 @@ span{
 .toop-page{
     height: 186vh;
     width: 100%;
+   
 }
+.p-texts{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.p-texts h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.places-to-visit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+img{
+    height: 250px;
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+
+
+
 
